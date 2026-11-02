@@ -1,4 +1,21 @@
-# House London: approval and S106 prediction
+<h1 align="center">Project106</h1>
+<p align="center"><b>🥈 2nd place · London House Data Hackathon</b></p>
+<p align="center"><b>Explore London housing feasibility with planning data and transparent assumptions.</b></p>
+
+## ▍System at a glance
+
+```mermaid
+flowchart LR
+  A["Foundations applications<br/>outcomes + S106 labels"] --> D["Feature table"]
+  B["Planning London Datahub<br/>proposal attributes"] --> D
+  C["Spatial layers<br/>constraints + transport"] --> D
+  D --> E["Leakage audit<br/>and modelling inputs"]
+  F["Interactive planning MVP<br/>map + 3D context"] --> G["Illustrative stakeholder<br/>trade-off scores"]
+```
+
+The root pipeline and the [planning simulator](mvp/README.md) are distinct: the MVP does not consume a trained model, and its illustrative scores are not approval probabilities.
+
+---
 
 Predicts, for a proposed London housing scheme, **P(approved)** and **P(S106 | approved)** from proposal parameters (storeys, homes, floor area, tenure, amenities such as gym or pool) plus site context (conservation area, flood zone, PTAL, Opportunity Area, deprivation).
 
