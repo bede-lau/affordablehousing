@@ -2,6 +2,16 @@
 <p align="center"><b>🥈 2nd place · London House Data Hackathon</b></p>
 <p align="center"><b>Explore London housing feasibility with planning data and transparent assumptions.</b></p>
 
+## ▍Project gallery
+
+<table><tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/bede-lau/bede-lau.github.io/main/assets/img/project106/project106_1.png" alt="affordablehousing project screenshot, first view" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/bede-lau/bede-lau.github.io/main/assets/img/project106/project106_2.png" alt="affordablehousing project screenshot, second view" /></td>
+</tr></table>
+
+<sub>Images from the [project portfolio](https://bede-lau.github.io/); they may depict an earlier build.</sub>
+
+
 ## ▍System at a glance
 
 ```mermaid
